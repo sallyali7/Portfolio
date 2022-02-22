@@ -7,22 +7,22 @@ function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+        <div className="collapse navbar-collapse navbar-light justify-content-md-center" id="navbarsExample10">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">About</a>
+              <a className="nav-link active text-white" aria-current="page" href="#">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+              <a className="nav-link active text-white" aria-current="page" href="#">Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Skills</a>
+              <a className="nav-link active text-white" aria-current="page" href="#">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Experience</a>
+              <a className="nav-link active text-white" aria-current="page" href="#">Experience</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Contact</a>
+              <a className="nav-link active text-white" aria-current="page" href="#">Contact</a>
             </li>
           </ul>
         </div>
