@@ -1,11 +1,32 @@
-import React from 'react'
 
 function NavBar() {
   return ( 
-    <nav className="navbar">
-      <a className="navbar-object" href="/">About</a>
-      <a className="navbar-object" href="/portfolio">Portfolio</a>
-      <a className="navbar-object" href="/email">Gmail</a>
+    <nav className="navbar navbar-expand-lg navbar-light rounded" aria-label="Twelfth navbar example">
+      <div className="container-fluid">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Skills</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Experience</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   )
 }
