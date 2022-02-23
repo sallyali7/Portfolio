@@ -3,7 +3,7 @@ import React from 'react'
 
 function Skills () {
   return (
-    <section className="container-fluid">
+    <section className="container">
       <button className="glass-card">HTML</button>
       <button className="glass-card">CSS3</button>
       <button className="glass-card">JavaScript</button>

@@ -3,6 +3,7 @@ import Home from './common/Home'
 import NavBar from './common/NavBar'
 import Skills from './common/Skills'
 import Portfolio from './common/Portfolio'
+import Contact from './common/Contact'
 
 
 
@@ -13,7 +14,7 @@ function App() {
       <Home />
       <Skills />
       <Portfolio />
-
+      <Contact />
     </div>
     
   )

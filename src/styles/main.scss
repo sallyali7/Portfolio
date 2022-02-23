@@ -1,11 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+
+
 // html body {
 //   background-color: #01356f;
 // }
+
+
 .background-pic {
   background-image: url('../assets/background.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 600px;
 }
 
 .skills{
@@ -22,4 +27,7 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: white;
+}
+section.container.contact{
+  background-color: #01356f;
 }
