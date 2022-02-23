@@ -7,7 +7,7 @@ import ketoKitchen from '../assets/ketoKitchen.png'
 
 function Portfolio () {
   return (
-    <main>
+    <main id="portfolio">
       <div className="album py-5 bg-light">
         <div className="container">
 

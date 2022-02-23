@@ -10,16 +10,16 @@ function NavBar() {
         <div className="collapse navbar-collapse navbar-light justify-content-md-center" id="navbarsExample10">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">About</a>
+              <a className="nav-link active" aria-current="page" href="#home">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Skills</a>
+              <a className="nav-link" aria-current="page" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+              <a className="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Contact</a>
+              <a className="nav-link" aria-current="page" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
