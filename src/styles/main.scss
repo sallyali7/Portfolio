@@ -5,6 +5,12 @@
 //   background-color: #01356f;
 // }
 
+// ***** NavBar *****
+nav {
+  background-color: #01356f;
+}
+
+// ***** Hero *******
 
 .background-pic {
   background-image: url('../assets/background.jpg');
@@ -13,6 +19,8 @@
   height: 600px;
   margin: 50px;
 }
+
+// ***** Skills *****
 
 .skills{
   display: flex;
@@ -246,3 +254,70 @@ div.container.skills{
   border: 1px solid rgba(255, 0, 88, 0.4);
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
+
+// ***** Portfolio ******
+
+button{
+    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0.8;
+  }
+  button:hover {
+    animation: animate 8s linear infinite;
+    color: white;
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  button:before {
+    background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5%;
+    color: white;
+  }
+  button:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+  button.btn-outline-light:hover{
+    color: white;
+    border-color: white;
+  }
+  
+
+
+// button {
+//   font-weight: 500;
+//   border: none;
+//   background: rgb(214, 214, 214);
+//   box-shadow: 0 0 5px #9521f3, 0 0 20px #c600ee, 0 0 20px #f704f7;
+//   outline: none;
+//   font-family: Arial, Helvetica, sans-serif;
+//   border-radius: 20%;
+//   border-color: none;
+//   color: #01356f;
+// }
+// button:active {
+//   box-shadow: 1px 1px 2px #FF6700, 1px 1px 2px #FF6700;
+// }
+// button.btn-outline-secondary{
+// border-color: none;
+// color: #01356f;
+// }
+// button.btn-outline-secondary:hover{
+//   background: linear-gradient(315deg, #ffbc00, #ff0058);
+//   color: #01356f;
+//   border-color: none;
+// }
+// .btn.btn-sm.btn-outline-light{
+//   color: #01356f;
+// }

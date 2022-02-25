@@ -8,7 +8,7 @@ function NavBar() {
         </button>
 
         <div className="collapse navbar-collapse navbar-light justify-content-md-center" id="navbarsExample10">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#home">About</a>
             </li>

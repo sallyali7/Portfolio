@@ -20,8 +20,8 @@ function Portfolio () {
                   <p className="card-text">PokeCenter is a pair project that used an external API to extract data and show data. It displays and details pokemon cards, it also includes a search and shiny mode feature. </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <a href='https://pokemoncenter.netlify.app/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Go to site</button></a>
-                      <a href='https://github.com/sallyali7/project-two' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Github</button></a>
+                      <a href='https://pokemoncenter.netlify.app/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Go to site</button></a>
+                      <a href='https://github.com/sallyali7/project-two' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Github</button></a>
                     </div>
                   </div>
                 </div>
@@ -35,8 +35,8 @@ function Portfolio () {
                   <p className="card-text">KetoKitchen is A full-stack MERN webapp built by a group of us. Users can create authenticated profiles, browse through 4 courses of Keto recipes, filter, search and bookmark recipes.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <a href='https://ketokitchen-proj-three-sei.netlify.app/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Go to site</button></a>
-                      <a href='https://github.com/tigeryant/sei-project-three-fe' target="_blank" rel="noreferrer"> <button type="button" className="btn btn-sm btn-outline-secondary">Github</button></a>
+                      <a href='https://ketokitchen-proj-three-sei.netlify.app/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Go to site</button></a>
+                      <a href='https://github.com/tigeryant/sei-project-three-fe' target="_blank" rel="noreferrer"> <button type="button" className="btn btn-sm btn-outline-light">Github</button></a>
                     </div>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ function Portfolio () {
                   <p className="card-text">TechConnect is a full-stack webapp that I did solo. Users can create authenticated profiles and apply for jobs directly. Admin can post jobs and blogposts using Django admin portal.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <a href='https://techconnect.netlify.app/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Go to site </button></a>
-                      <a href='https://github.com/sallyali7/project4_frontend' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Github</button></a>
+                      <a href='https://techconnect.netlify.app/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Go to site </button></a>
+                      <a href='https://github.com/sallyali7/project4_frontend' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Github</button></a>
                     </div>
                   </div>
                 </div>
@@ -64,8 +64,8 @@ function Portfolio () {
                   <p className="card-text">A classic Snake game were I used a grid to create a snake that is directed using the keyboard to eat a randomly generated apple. The snake grows as it eats and dies if it hits the paramater.</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <a href='https://sallyali7.github.io/sei-project-one-/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Go to site</button></a>
-                      <a href='https://github.com/sallyali7/sei-project-one-' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-secondary">Github</button></a>
+                      <a href='https://sallyali7.github.io/sei-project-one-/' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Go to site</button></a>
+                      <a href='https://github.com/sallyali7/sei-project-one-' target="_blank" rel="noreferrer"><button type="button" className="btn btn-sm btn-outline-light">Github</button></a>
                     </div>
                   </div>
                 </div>
