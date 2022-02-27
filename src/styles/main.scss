@@ -85,9 +85,7 @@ border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: white;
 }
-section.container.contact{
-  background-color: #01356f;
-}
+
 section.skills-body{
   display: flex;
   justify-content: center;
@@ -304,6 +302,9 @@ div.container.skills{
 }
 
 // ***** Portfolio ******
+.card-img, .card-img-bottom, .card-img-top{
+  height: 100%;
+}
 a.sitelink {
   color: lightskyblue;
   border: 1px solid #4dff03;
@@ -313,3 +314,16 @@ a.sitelink:hover {
   color: #01356f;
   box-shadow: 0 0 5px #ffbc00, 0 0 5px #ff0058 inset;
 }
+
+// **** Footer *******
+.contact-icon{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #01356f;
+}
+p.link.contact{
+  color: #01356f;
+  padding-top: 5px;
+}
+

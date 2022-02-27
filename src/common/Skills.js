@@ -3,7 +3,7 @@ import React from 'react'
 
 function Skills () {
   return (
-    <section className="skills-body" id="skills">
+    <><section className="skills-body" id="skills">
       <div className="container skills">
         <div className="box">
           <span></span>
@@ -15,7 +15,7 @@ function Skills () {
             <li>React</li>
             <li>Sass</li>
             <li>Bootstrap</li>
-            <li>Bulma</li>          
+            <li>Bulma</li>
           </div>
         </div>
         <div className="box">
@@ -28,7 +28,7 @@ function Skills () {
             <li>MongoDB</li>
             <li>Django</li>
             <li>TablePlus</li>
-            <li>Insomnia</li>  
+            <li>Insomnia</li>
           </div>
         </div>
         <div className="box">
@@ -41,12 +41,11 @@ function Skills () {
             <li>problem-solving</li>
             <li>Communication</li>
             <li>Adaptability</li>
-            <li>Fluent in professional Arabic</li>  
+            <li>Fluent in professional Arabic</li>
           </div>
         </div>
       </div>
-
-    </section>
+    </section><br></br><hr></hr><br></br></>
   
 
 
