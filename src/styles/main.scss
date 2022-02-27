@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
+html body {
+  font-family: 'Noto Serif Display', serif;
+  letter-spacing: 0.5px;
+}
 
 // html body {
 //   background-color: #01356f;
@@ -8,6 +12,12 @@
 // ***** NavBar *****
 nav {
   background-color: #01356f;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  text-decoration-color: #FF5F1F;
 }
 
 // ***** Hero *******
@@ -257,41 +267,85 @@ div.container.skills{
 
 // ***** Portfolio ******
 
-button{
-    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
-    background-size: 400%;
-    border-radius: 30px;
-    opacity: 0.8;
-  }
-  button:hover {
-    animation: animate 8s linear infinite;
-    color: white;
-  }
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-  button:before {
-    background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
-    background-size: 400%;
-    border-radius: 40px;
-    opacity: 0;
-    transition: 0.5%;
-    color: white;
-  }
-  button:hover:before {
-    filter: blur(20px);
-    opacity: 1;
-    animation: animate 8s linear infinite;
-  }
-  button.btn-outline-light:hover{
-    color: white;
-    border-color: white;
-  }
+
+
+.btn.btn-sm.btn-outline-light{
+  position: relative;
+  color: #01356f; 
+  border: none;
+  z-index: 2;
+}
+.btn.btn-sm.btn-outline-light:before,
+.btn.btn-sm.btn-outline-light:after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  border: 1px solid;
+  
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.btn.btn-sm.btn-outline-light:before{
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #01356f;
+  border-left-color: #01356f;
+}
+.btn.btn-sm.btn-outline-light:after{
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #01356f;
+  border-right-color: #01356f;
+}
+.btn.btn-sm.btn-outline-light:hover:before,
+.btn.btn-sm.btn-outline-light:hover:after {
+  border-color: #00aced;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px #00aced, 0 0 5px #00aced inset;
+}
+
+
+// button{
+//     background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+//     background-size: 400%;
+//     border-radius: 30px;
+//     opacity: 0.8;
+//   }
+//   button:hover {
+//     animation: animate 8s linear infinite;
+//     color: white;
+//   }
+//   @keyframes animate {
+//     0% {
+//       background-position: 0%;
+//     }
+//     100% {
+//       background-position: 400%;
+//     }
+//   }
+//   button:before {
+//     background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
+//     background-size: 400%;
+//     border-radius: 40px;
+//     opacity: 0;
+//     transition: 0.5%;
+//     color: white;
+//   }
+//   button:hover:before {
+//     filter: blur(20px);
+//     opacity: 1;
+//     animation: animate 8s linear infinite;
+//   }
+//   button.btn-outline-light:hover{
+//     color: white;
+//     border-color: white;
+//   }
   
 
 
