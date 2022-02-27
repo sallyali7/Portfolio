@@ -20,15 +20,53 @@ nav {
   text-decoration-color: #FF5F1F;
 }
 
-// ***** Hero *******
+// ***** Hero ******
 
 .background-pic {
   background-image: url('../assets/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  margin: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+hr {
+  border: 1px solid #ff0058;
+  background-color: #ff0058;
+}
+.aboutcard {
+display: inline-flex;
+text-align: center;
+flex-direction: column;
+align-items: flex-start;
+margin: 50px auto 20px 50px; 
+}
+h1 , h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.aboutpg {
+width: 400px;
+text-align: left;
+margin-left: 60px;
+color: white;
+letter-spacing: 1px;
+line-height: 25px;
+}
+
 
 // ***** Skills *****
 
@@ -266,112 +304,12 @@ div.container.skills{
 }
 
 // ***** Portfolio ******
-
-
-
-.btn.btn-sm.btn-outline-light{
-  position: relative;
-  color: #01356f; 
-  border: none;
-  z-index: 2;
+a.sitelink {
+  color: lightskyblue;
+  border: 1px solid #4dff03;
+  padding: 5px;
 }
-.btn.btn-sm.btn-outline-light:before,
-.btn.btn-sm.btn-outline-light:after {
-  position: absolute;
-  content: "";
-  width: 20%;
-  height: 20%;
-  border: 1px solid;
-  
-  z-index: -1;
-  transition: all 0.3s ease;
+a.sitelink:hover {
+  color: #01356f;
+  box-shadow: 0 0 5px #ffbc00, 0 0 5px #ff0058 inset;
 }
-.btn.btn-sm.btn-outline-light:before{
-  top: 0;
-  left: 0;
-  border-bottom-color: transparent;
-  border-right-color: transparent;
-  border-top-color: #01356f;
-  border-left-color: #01356f;
-}
-.btn.btn-sm.btn-outline-light:after{
-  bottom: 0;
-  right: 0;
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-bottom-color: #01356f;
-  border-right-color: #01356f;
-}
-.btn.btn-sm.btn-outline-light:hover:before,
-.btn.btn-sm.btn-outline-light:hover:after {
-  border-color: #00aced;
-  height: 100%;
-  width: 100%;
-  box-shadow: 0 0 5px #00aced, 0 0 5px #00aced inset;
-}
-
-
-// button{
-//     background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
-//     background-size: 400%;
-//     border-radius: 30px;
-//     opacity: 0.8;
-//   }
-//   button:hover {
-//     animation: animate 8s linear infinite;
-//     color: white;
-//   }
-//   @keyframes animate {
-//     0% {
-//       background-position: 0%;
-//     }
-//     100% {
-//       background-position: 400%;
-//     }
-//   }
-//   button:before {
-//     background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
-//     background-size: 400%;
-//     border-radius: 40px;
-//     opacity: 0;
-//     transition: 0.5%;
-//     color: white;
-//   }
-//   button:hover:before {
-//     filter: blur(20px);
-//     opacity: 1;
-//     animation: animate 8s linear infinite;
-//   }
-//   button.btn-outline-light:hover{
-//     color: white;
-//     border-color: white;
-//   }
-  
-
-
-// button {
-//   font-weight: 500;
-//   border: none;
-//   background: rgb(214, 214, 214);
-//   box-shadow: 0 0 5px #9521f3, 0 0 20px #c600ee, 0 0 20px #f704f7;
-//   outline: none;
-//   font-family: Arial, Helvetica, sans-serif;
-//   border-radius: 20%;
-//   border-color: none;
-//   color: #01356f;
-// }
-// button:active {
-//   box-shadow: 1px 1px 2px #FF6700, 1px 1px 2px #FF6700;
-// }
-// button.btn-outline-secondary{
-// border-color: none;
-// color: #01356f;
-// }
-// button.btn-outline-secondary:hover{
-//   background: linear-gradient(315deg, #ffbc00, #ff0058);
-//   color: #01356f;
-//   border-color: none;
-// }
-// .btn.btn-sm.btn-outline-light{
-//   color: #01356f;
-// }
